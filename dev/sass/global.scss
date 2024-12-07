@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 16px;
+}
+.example {
+    padding: 100px 0;
+    margin: 100px auto;
+    background-color: #c5efdc;
+}
+.container {
+    max-width: 1400px;
+    margin: 0 12px;
+    margin: 0 auto;
+}
+.example__title {
+    font-size: 36px;
+    margin-bottom: 40px;
+}
+.d-flex {
+    display: flex;
+}
+.g-1 {
+    gap: 12px;
+}
+.g-2 {
+    gap: 36px;
+}
+.g-3 {
+    gap: 48px;
+}
+.g-4 {
+    gap: 60px;
+}
+.g-5 {
+    gap: 72px;
+}
+.mb-1 {
+    margin-bottom: 12px;
+}
+.mb-2 {
+    margin-bottom: 24px;
+}
