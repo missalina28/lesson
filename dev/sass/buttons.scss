@@ -1,0 +1,286 @@
+.btn {
+    display: inline-block;
+    cursor: pointer;
+    padding: var(--btn-padding-y) var(--btn-padding-x);
+    margin: 0 12px;
+    color: var(--btn-color);
+    border-radius: var(--btn-border-radius);
+    border: 2px solid;
+    font-size: var(--btn-font-size);
+    background-color: var(--btn-bg-color);
+    &:hover {
+        background-color: var(--btn-hover-bg-color);
+        border-color: var(--btn-hover-border-color);
+    }
+    &:active {
+        background-color: --btn-active-bg-color;
+        border-color: --btn-active-border-color;
+    }
+    &:focus {
+        background-color: --btn-focus-bg-color;
+        border-color: --btn-focus-border-color:;
+    }
+    &.btn_outline {
+        color: --btn-color;
+        &:hover {
+            color: --btn-color;
+        }
+        &:active {
+            color: --btn-color;
+        }
+        &:focus {
+            color: --btn-color;
+        }
+    }
+}
+
+.btn-primary {
+    background-color: var(--btn-primary-bg-color);
+    border-color: var(--btn-primary-border-color);
+    color: var(--btn-primary-color);
+    &:hover {
+        background-color: var(--btn-primary-hover-bg-color);
+        border-color: var(--btn-primary-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-primary-active-bg-color);
+        border-color: var(--btn-primary-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-primary-focus-bg-color);
+        border-color: var(--btn-primary-focus-border-color);
+    }
+    &.btn_outline {
+        color: --btn-primary-border-color;
+        &:hover {
+            color: --btn-primary-color;
+        }
+        &:active {
+            color: --btn-primary-color;
+        }
+        &:focus {
+            color: --btn-primary-color;
+        }
+    }
+}
+.btn-secondary {
+    background-color: var(--btn-secondary-bg-color);
+    border-color: var(--btn-secondary-border-color);
+    color: var(--btn-secondary-color);
+    &:hover {
+        background-color: var(--btn-secondary-hover-bg-color);
+        border-color: var(--btn-secondary-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-secondary-active-bg-color);
+        border-color: var(--btn-secondary-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-secondary-focus-bg-color);
+        border-color: var(--btn-secondary-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-secondary-border-color);
+        &:hover {
+            color: var(--btn-secondary-color);
+        }
+        &:active {
+            color: var(--btn-secondary-color);
+        }
+        &:focus {
+            color: var(--btn-secondary-color);
+        }
+    }
+}
+.btn-success {
+    background-color: var(--btn-success-bg-color);
+    border-color: var(--btn-success-border-color);
+    color: var(--btn-success-color);
+    &:hover {
+        background-color: var(--btn-success-hover-bg-color);
+        border-color: var(--btn-success-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-success-active-bg-color);
+        border-color: var(--btn-success-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-success-focus-bg-color);
+        border-color: var(--btn-success-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-success-border-color);
+        &:hover {
+            color: var(--btn-success-color);
+        }
+        &:active {
+            color: var(--btn-success-color);
+        }
+        &:focus {
+            color: var(--btn-success-color);
+        }
+    }
+}
+.btn-danger {
+    background-color: var(--btn-danger-bg-color);
+    border-color: var(--btn-danger-border-color);
+    color: var(--btn-danger-color);
+    &:hover {
+        background-color: var(--btn-danger-hover-bg-color);
+        border-color: var(--btn-danger-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-danger-active-bg-color);
+        border-color: var(--btn-danger-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-danger-focus-bg-color);
+        border-color: var(--btn-danger-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-danger-border-color);
+        &:hover {
+            color: var(--btn-danger-color);
+        }
+        &:active {
+            color: var(--btn-danger-color);
+        }
+        &:focus {
+            color: var(--btn-danger-color)
+    }
+}
+.btn-warning {
+    background-color: var(--btn-warning-bg-color);
+    border-color: var(--btn-warning-border-color);
+    color: var(--btn-warning-color);
+    &:hover {
+        background-color: var(--btn-warning-hover-bg-color);
+        border-color: var(--btn-warning-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-warning-active-bg-color);
+        border-color: var(--btn-warning-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-warning-focus-bg-color);
+        border-color: var(--btn-warning-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-warning-border-color);
+        &:hover {
+            color: var(--btn-warning-color);
+        }
+        &:active {
+            color: var(--btn-warning-color);
+        }
+        &:focus {
+            color: var(--btn-warning-color);
+        }
+    }
+}
+.btn-info {
+    background-color: var(--btn-info-bg-color);
+    border-color: var(--btn-info-border-color);
+    color: var(--btn-info-color);
+    &:hover {
+        background-color: var(--btn-info-hover-bg-color);
+        border-color: var(--btn-info-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-info-active-bg-color);
+        border-color: var(--btn-info-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-info-focus-bg-color);
+        border-color: var(--btn-info-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-info-border-color);
+        &:hover {
+            color: var(--btn-info-color);
+        }
+        &:active {
+            color: var(--btn-info-color);
+        }
+        &:focus {
+            color: var(--btn-info-color);
+        }
+    }
+}
+.btn-light {
+    background-color: var(--btn-light-bg-color);
+    border-color: var(--btn-light-border-color);
+    color: var(--btn-info-color);
+    &:hover {
+        background-color: var(--btn-light-hover-bg-color);
+        border-color: var(--btn-light-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-light-active-bg-color);
+        border-color: var(--btn-light-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-light-focus-bg-color);
+        border-color: var(--btn-light-focus-border-color);
+    }
+    &.btn_outline {
+        color: var(--btn-light-color);
+        &:hover {
+            color: var(--btn-light-border-color);
+        }
+        &:active {
+            color: var(--btn-light-border-color);
+        }
+        &:focus {
+            color: var(--btn-light-border-color);
+        }
+    }
+    
+}
+.btn-dark {
+    background-color: var(--btn-dark-bg-color);
+    border-color: var(--btn-dark-border-color);
+    color: var(--btn-dark-color);
+    &:hover {
+        background-color: var(--btn-dark-hover-bg-color);
+        border-color: var(--btn-dark-hover-border-color);
+    }
+    &:active {
+        background-color: var(--btn-dark-active-bg-color);
+        border-color: var(--btn-dark-active-border-color);
+    }
+    &:focus {
+        background-color: var(--btn-dark-focus-bg-color);
+        border-color: var(--btn-dark-focus-border-color);
+    }
+    &.btn_outline {
+        color: #25243b;
+        &:hover {
+            color: var(--btn-dark-color);
+        }
+        &:active {
+            color: var(--btn-dark-color);
+        }
+        &:focus {
+            color: var(--btn-dark-color);
+        }
+    }
+}
+.btn_md {
+    padding: calc(var(--btn-padding-y) + 8px) calc(var(--btn-padding-x) + 8px);
+}
+.btn_lg {
+    padding: calc(var(--btn-padding-y) + 12px) calc(var(--btn-padding-x) + 12px);
+}
+.btn_xl {
+    padding: calc(var(--btn-padding-y) + 16px) calc(var(--btn-padding-x) + 16px);
+}
+.btn_xxl {
+    padding: calc(var(--btn-padding-y) + 20px) calc(var(--btn-padding-x) + 20px);
+}
+.btn_outline {
+    background-color: transparent;
+}
+.btn_roundet {
+    border-radius: 50px;
+}
